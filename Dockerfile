@@ -1,5 +1,7 @@
 FROM breauxaj/alpine:latest
 
+COPY Gemfile /Gemfile
+
 RUN apk add ruby shadow less \
   && gem install bundler \
   && bundle install \
