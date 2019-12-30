@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'deep_merge'
+gem 'hiera-regex'
+gem 'json_pure'
+gem 'minitar-cli'
+gem 'puppet'
+gem 'puppet-lint'
+gem 'r10k'
+gem 'yaml-lint'
