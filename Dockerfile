@@ -6,6 +6,7 @@ RUN apk add ruby shadow less \
     hiera-regex \
     json_pure \
     r10k \
+    minitar-cli \
     puppet-lint \
     yaml-lint \
   && rm -rf /var/cache/apk/* \
