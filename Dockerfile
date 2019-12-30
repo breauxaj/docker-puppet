@@ -6,4 +6,5 @@ RUN apk add ruby shadow less \
     json_pure \
     puppet-lint \
     yaml-lint \
-  && rm -rf /var/cache/apk/*
+  && rm -rf /var/cache/apk/* \
+  && mkdir -p /etc/puppet
