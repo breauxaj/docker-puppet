@@ -5,5 +5,5 @@ RUN apk add ruby shadow less \
     puppet \
     puppet-lint \
     yaml-lint \
-    --no-ri --no-rdoc \
+    --no-rdoc \
   && rm -rf /var/cache/apk/*
